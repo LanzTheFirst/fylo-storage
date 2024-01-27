@@ -41,19 +41,20 @@
   }
   .point{
     width: 4%;
-    right: 65px;
+    right: 60px;
   }
   .space-left{
     position: absolute;
     bottom: -25px;
-    top: 110px;
-    right: 72px;
+    top: 120px;
+    right: 85px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 27px;
+  
   }
   .space-left span{
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
   }
   .space-left::before {
     display: none;
