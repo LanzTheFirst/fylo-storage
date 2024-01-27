@@ -27,35 +27,29 @@
   }
   .container-two{
     width: 70%;
-    height: 170px;
+    height: 150px;
     margin-bottom: 0px;
     display: flex;
-    align-items: center;
   }
   .container-two p{
-    padding: 30px 30px 20px 30px;
+    padding: 40px 0 15px 0;
+    text-align: center;
   }
   .memory{
-    width: 77%;
+    width: 85%;
     height: 15px;
   }
   .point{
     width: 4%;
-    right: 72px;
-  }
-  .memory-space span:nth-child(1){
-    margin-right: 200px;
-  }
-  .memory-space span:nth-child(1){
-    margin-left: 20px;
+    right: 65px;
   }
   .space-left{
     position: absolute;
-    bottom: -45px;
-    top: 135px;
-    right: 90px;
+    bottom: -25px;
+    top: 110px;
+    right: 72px;
     padding: 10px;
-    font-size: 45px;
+    font-size: 30px;
   }
   .space-left span{
     font-weight: 400;
