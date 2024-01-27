@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+  main{
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-mobile.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-one{
+    width: 70%;
+    height: 220px;
+    background-color:  hsl(228, 56%, 26%);
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .fdu{
+    margin-top: 30px;
+  }
+  .fdu div{
+    margin-right: 18px;
+    padding: 15px;
+    border-radius: 7px;
+  }
+  .container-two{
+    width: 70%;
+    height: 170px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .container-two p{
+    padding: 30px 30px 20px 30px;
+  }
+  .memory{
+    width: 77%;
+    height: 15px;
+  }
+  .point{
+    width: 4%;
+    right: 72px;
+  }
+  .memory-space span:nth-child(1){
+    margin-right: 200px;
+  }
+  .memory-space span:nth-child(1){
+    margin-left: 20px;
+  }
+  .space-left{
+    position: absolute;
+    bottom: -45px;
+    top: 135px;
+    right: 90px;
+    padding: 10px;
+    font-size: 45px;
+  }
+  .space-left span{
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .space-left::before {
+    display: none;
+  }
+}
